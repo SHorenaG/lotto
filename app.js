@@ -1,6 +1,7 @@
 let random=document.querySelectorAll(".random")
 let number=document.querySelectorAll(".number")
 let myb=document.querySelector(".b")
+let myr=document.querySelector(".r")
 let myh1=document.querySelector(".myh1")
 let count=0;
 let count1=0;
@@ -91,7 +92,26 @@ if (count == 6)  {
 
 
 
+
 }
 })
+myr.addEventListener("click", function(){
+for(i=0; i<number.length; i++)
+{
+    number[i].style.border=""
+}
+for (let i = 0; i < random.length; i++) {
+    random[i].innerText=""
+    
+}
+for(let n of number){
+    n.style.pointerEvents="auto"
+}
+myb.style.pointerEvents="auto"
+count=0
+count1=0
+x=[]
+y=[]
 
+})
 
