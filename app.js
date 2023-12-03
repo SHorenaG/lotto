@@ -107,6 +107,7 @@ for (let i = 0; i < random.length; i++) {
 for(let n of number){
     n.style.pointerEvents="auto"
 }
+myh1.innerText=""
 myb.style.pointerEvents="auto"
 count=0
 count1=0
