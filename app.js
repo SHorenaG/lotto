@@ -7,6 +7,7 @@ let count=0;
 let count1=0;
 let x=[]
 let y=[]
+let w=[]
 
 for (let i = 0; i < number.length; i++) {
     number[i].addEventListener("click", function () {
@@ -52,6 +53,8 @@ if (count == 6)  {
     {
         if(x.includes(resalt[i])){
             count1++;
+            w.push(number[resalt[i]-1].innerText)
+            console.log(w);
             number[resalt[i]-1].style.border="5px solid yellow" 
 
         }
@@ -65,26 +68,26 @@ if (count == 6)  {
     myb.style.pointerEvents="none"
 
  if(count1==6){
-    myh1.innerText=" first category";
+    myh1.innerText=`matches  number:${w}`;
     myh1.style.color="red"
  }
  else if(count1==5){
-    myh1.innerText=" second category";
+    myh1.innerText=`matches  number:${w}`;
     myh1.style.color="red"
 
  }
  else if(count1==4){
-    myh1.innerText=" therd category";
+    myh1.innerText=`matches  number:${w}`;
     myh1.style.color="red"
     
  }
  else if(count1==2){
-    myh1.innerText=" matches 2 number";
+    myh1.innerText=`matches  number:${w}`;
     myh1.style.color="red"
     
  }
  else if(count1==1){
-    myh1.innerText=" matches 1 number";
+    myh1.innerText= `match  number:${w}`;
 
     myh1.style.color="red"
     
@@ -113,6 +116,7 @@ count=0
 count1=0
 x=[]
 y=[]
+w=[]
 
 })
 
