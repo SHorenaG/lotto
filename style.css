@@ -5,7 +5,9 @@ html,body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(171, 19, 184); 
+    background-image: url(https://images.pond5.com/lottery-balls-numbers-black-background-footage-075802481_iconl.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .x {
     justify-content: center;
@@ -38,7 +40,7 @@ html,body{
 flex-wrap: wrap;
 width: 70%;
 height: 40%;
-background-color: rgb(171, 19, 184);
+
 gap: 10px;
 
 }
