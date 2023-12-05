@@ -13,7 +13,8 @@ background-size: cover;
     justify-content: center;
     gap: 15px;
     display: flex;
-
+margin-bottom: 50px;
+max-width: 100%;
 
 
 }
@@ -37,12 +38,19 @@ background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-flex-wrap: wrap;
+
 width: 70%;
 height: 40%;
-
+max-width: 100%;
 gap: 10px;
 
+flex-direction: column;
+
+
+}
+.w{
+    display: flex;
+    
 }
 
 .z{
@@ -83,4 +91,23 @@ gap: 10px;
     justify-content: center;
     width: 100%;
 
+}
+
+@media screen and (max-width:620px) {
+    .number {
+        width: 50px;
+    height: 50px;
+    }
+}
+@media screen and (max-width:530px) {
+    .number {
+        width: 40px;
+    height: 40px;
+    }
+}
+@media screen and (max-width:410px) {
+    .number {
+        width: 30px;
+    height: 30px;
+    }
 }
