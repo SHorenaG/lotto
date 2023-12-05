@@ -7,6 +7,7 @@ html,body{
     flex-direction: column;
     background-image: url(https://images.pond5.com/lottery-balls-numbers-black-background-footage-075802481_iconl.jpeg);
 background-repeat: no-repeat;
+max-width: 100%;
 background-size: cover;
 }
 .x {
@@ -14,7 +15,7 @@ background-size: cover;
     gap: 15px;
     display: flex;
 margin-bottom: 50px;
-max-width: 100%;
+
 
 
 }
@@ -27,6 +28,7 @@ max-width: 100%;
     width: 80px;
     height: 80px;
     border-radius:50%;
+ 
     font-size: 18;
     justify-content: center;
     align-items: center;
@@ -41,7 +43,7 @@ max-width: 100%;
 
 width: 100%;
 height: 40%;
-max-width: 100%;
+
 gap: 10px;
 
 flex-direction: column;
@@ -98,11 +100,20 @@ flex-direction: column;
         width: 50px;
     height: 50px;
     }
+    .random {
+        width: 60px;
+        height: 60px;
+    }
 }
 @media screen and (max-width:650px) {
     .number {
         width: 40px;
     height: 40px;
+    }
+    .random {
+        
+        width: 40px;
+        height: 40px;
     }
 }
 @media screen and (max-width:550px) {
@@ -110,10 +121,22 @@ flex-direction: column;
         width: 30px;
     height: 30px;
     }
+    .random {
+        width: 30px;
+        height: 30px;
+    }
 }
 @media screen and (max-width:450px) {
     .number {
         width: 25px;
     height: 25px;
+    
+    }
+    .random {
+        width: 25px;
+        height:25px;
+    }
+    .w {
+        gap: 10px;
     }
 }
