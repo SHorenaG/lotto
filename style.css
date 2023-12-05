@@ -38,7 +38,7 @@ margin-bottom: 50px;
 }
 .y{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
 
 width: 100%;
@@ -101,8 +101,8 @@ flex-direction: column;
     height: 50px;
     }
     .random {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 }
 @media screen and (max-width:650px) {
@@ -110,21 +110,14 @@ flex-direction: column;
         width: 40px;
     height: 40px;
     }
-    .random {
-        
-        width: 40px;
-        height: 40px;
-    }
+    
 }
 @media screen and (max-width:550px) {
     .number {
         width: 30px;
     height: 30px;
     }
-    .random {
-        width: 30px;
-        height: 30px;
-    }
+    
 }
 @media screen and (max-width:450px) {
     .number {
@@ -132,10 +125,7 @@ flex-direction: column;
     height: 25px;
     
     }
-    .random {
-        width: 25px;
-        height:25px;
-    }
+   
     .w {
         gap: 10px;
     }
